@@ -62,6 +62,7 @@ The full file needs about 8 GB+ of free RAM. For a quick test, set `SAMPLE_NROWS
 ---
 
 ## Phase 1 highlights
+* **Beginner-friendly notebooks:** every code cell has a *Cell explanation* above it (what it does, why, which library functions it uses, what to look for), and each notebook starts with a **library guide** in simple words.
 * **Profiling before cleaning:** missing values for all 81 columns, exact duplicates (whole-row hash) and source-key uniqueness.
 * **Nothing dropped silently:** each row gets one `ExclusionReason`, and the data-quality report lists the attribute, count, treatment and justification for every decision ([reports/tables/01_data_quality_report.csv](reports/tables/01_data_quality_report.csv)).
 * **Unit standardisation:** °F→°C, mS/cm→µS/cm, nitrate as NO₃→as N, with DO % saturation separated from mg/L.
