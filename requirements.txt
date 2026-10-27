@@ -1,0 +1,11 @@
+# Phase 1 - Data profiling, curation and EDA
+pandas>=2.0
+numpy>=1.24
+pyarrow>=12.0        # parquet read/write
+matplotlib>=3.7
+seaborn>=0.12
+scipy>=1.10
+jupyter
+
+# Phase 2 / Phase 3 dependencies will be added when those phases start
+# (psycopg2, sqlalchemy, pyspark, kafka-python, clickhouse-connect, scikit-learn, mlxtend)

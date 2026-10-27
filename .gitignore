@@ -1,0 +1,29 @@
+# ---- Data (too large for GitHub; see data/README.md) ----
+*.csv
+*.tsv
+*.parquet
+*.zip
+resultphyschem/
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/README.md
+
+# Small result tables ARE committed (they are part of the data-quality report)
+!reports/tables/*.csv
+
+# ---- Python / Jupyter ----
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+~$*.docx
